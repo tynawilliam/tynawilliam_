@@ -1,8 +1,14 @@
+import Navbar from "@/components/Navbar";
 import React from "react";
 
 function Home() {
-  // <h2 className={inter.className}></h2>
-  return <div>Home</div>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 }
 
 export default Home;
+
+// <h2 className={inter.className}></h2>
