@@ -4,7 +4,7 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#112240",
+      main: "#0A192FD9",
       light: "#233554",
     },
     secondary: {
@@ -16,6 +16,10 @@ const theme = createTheme({
       variants: [
         {
           props: { size: "extraLarge" },
+          style: { fontSize: 16, padding: "5px 2px", width: "200px" },
+        },
+        {
+          props: { size: "xxxLarge" },
           style: { fontSize: 16, padding: "5px 2px", width: "200px" },
         },
       ],

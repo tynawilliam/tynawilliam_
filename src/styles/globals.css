@@ -3,5 +3,8 @@
 @tailwind utilities;
 
 html {
-  background-color: #112240;
+  /* background-color: #112240; */
+  /* background-image: url("/background.jpg");
+  background-size: cover; */
+  background-color: #000017;
 }
