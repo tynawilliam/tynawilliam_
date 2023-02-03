@@ -4,11 +4,21 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#233554",
-      dark: "#112240",
+      main: "#112240",
+      light: "#233554",
     },
     secondary: {
       main: "#F472B6",
+    },
+  },
+  components: {
+    MuiButton: {
+      variants: [
+        {
+          props: { size: "extraLarge" },
+          style: { fontSize: 16, padding: "5px 2px", width: "200px" },
+        },
+      ],
     },
   },
 });
