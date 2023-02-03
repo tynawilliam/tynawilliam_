@@ -1,0 +1,7 @@
+@media (min-height: 1600px) {
+  .intro {
+    padding-top: 25rem;
+    padding-left: 5rem;
+    padding-right: 0;
+  }
+}

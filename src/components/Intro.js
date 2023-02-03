@@ -4,13 +4,18 @@ import styles from "../styles/Home.module.css";
 
 function Intro() {
   return (
-    <div className="mt-36 pl-5 flex flex-col items-start w-screen tablet:w-5/6 tablet:px-24 tablet:mt-80 laptop:mt-44 laptop:px-48">
+    <div
+      className={`${styles.intro} mt-36 pl-5 flex flex-col items-start w-screen tablet:w-5/6 tablet:px-24 tablet:mt-80 laptop:mt-44 laptop:px-48`}
+    >
       <h3 className="text-xl font-mono text-pink-400 pb-4 ">Hi there! I'm</h3>
-      <h1 className=" text-5xl ui-monospace mt-1 text-neutral-300 mb-4 tablet:text-7xl">
+      <h1
+        className={` text-5xl ui-monospace mt-1 text-neutral-300 mb-4 tablet:text-7xl`}
+      >
         Tyna William
       </h1>
       <h1
-        className={`text-5xl mb-7 text-[#94a3b8] tablet:text-6xl tablet:pt-5 laptop:text-7xl`}
+        className={`tagline ${styles.intro}text-5xl mb-7 text-[#94a3b8] tablet:text-6xl tablet:pt-5 laptop:text-7xl`}
+        id="tagline"
       >
         I build things for the web
       </h1>
