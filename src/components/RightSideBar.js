@@ -6,7 +6,7 @@ import MailOutlinedIcon from "@mui/icons-material/MailOutlined";
 function RightSideBar() {
   return (
     <span
-      className={` text-[#94a3b8] flex flex-col fixed top-[80vh] right-[4vw] justify-between h-32`}
+      className={`invisible tablet:visible text-[#94a3b8] flex flex-col fixed top-[80vh] right-[4vw] justify-between h-32`}
     >
       <a
         className={`hover:cursor-pointer hover:scale-125 hover:text-pink-400/80`}
