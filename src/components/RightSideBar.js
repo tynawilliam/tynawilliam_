@@ -3,10 +3,10 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import MailOutlinedIcon from "@mui/icons-material/MailOutlined";
 
-function SideBars() {
+function RightSideBar() {
   return (
     <span
-      className={` text-[#94a3b8] flex flex-col fixed top-[80vh] left-12 justify-between h-32`}
+      className={` text-[#94a3b8] flex flex-col fixed top-[80vh] right-[4vw] justify-between h-32`}
     >
       <a
         className={`hover:cursor-pointer hover:scale-125 hover:text-pink-400/80`}
@@ -30,4 +30,4 @@ function SideBars() {
   );
 }
 
-export default SideBars;
+export default RightSideBar;

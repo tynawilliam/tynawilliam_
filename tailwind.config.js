@@ -13,5 +13,13 @@ module.exports = {
       desktop: "1280px",
       // => @media (min-width: 1280px) { ... }
     },
+    extend: {
+      width: {
+        200: "30vw",
+      },
+      height: {
+        200: "40vh",
+      },
+    },
   },
 };
