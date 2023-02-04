@@ -1,11 +1,12 @@
 import { Box, Button, Tooltip } from "@mui/material";
 import React from "react";
 import styles from "../styles/Home.module.css";
+import downloadResume from "@/utils/downloadResume";
 
 function Intro() {
   return (
     <div
-      className={`${styles.intro} mt-36 pl-5 flex flex-col items-start w-screen tablet:w-5/6 tablet:px-24 tablet:mt-80 laptop:mt-44 laptop:px-48`}
+      className={`${styles.intro} mt-36 pl-5 flex flex-col items-start w-screen tablet:w-5/6 tablet:px-24 tablet:mt-80 laptop:mt-44 laptop:px-48 h-full`}
     >
       <h3 className="text-xl font-mono text-pink-400 pb-4 ">Hi there! I'm</h3>
       <h1
@@ -33,7 +34,7 @@ function Intro() {
             variant="outlined"
             color="secondary"
             size="extraLarge"
-            // onClick={downloadResume}
+            onClick={downloadResume}
             className="laptop:hover:bg-pink-400/40"
           >
             Resume

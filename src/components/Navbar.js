@@ -13,6 +13,7 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 import { createTheme } from "@mui/system";
+import downloadResume from "@/utils/downloadResume";
 
 const pages = ["About", "Experience", "Projects", "Contact"];
 const settings = ["About", "Experience", "Projects", "Contact"];
@@ -46,9 +47,6 @@ function ResponsiveAppBar() {
     setAnchorElUser(null);
   };
 
-  const downloadResume = () => {
-    console.log("downloading...");
-  };
   return (
     <AppBar position="static">
       <Container maxWidth="xl">
