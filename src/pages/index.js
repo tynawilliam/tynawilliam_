@@ -1,3 +1,4 @@
+import AboutMe from "@/components/AboutMe";
 import Intro from "@/components/Intro";
 import Navbar from "@/components/Navbar";
 import RightSideBar from "@/components/RightSideBar";
@@ -11,7 +12,7 @@ function Home() {
       <RightSideBar />
       <Navbar />
       <Intro />
-      <div style={{ height: "80vh" }}></div>
+      <AboutMe />
     </div>
   );
 }
